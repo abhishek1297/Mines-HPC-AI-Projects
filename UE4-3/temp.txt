@@ -1,0 +1,3 @@
+tensorboard dev upload --logdir runs --name "large dataset run (wgan-gp continued for 400) part 3" --description "wgan architecture with gradient penalty for 400 epochs more"
+
+tensorboard --logdir=runs/

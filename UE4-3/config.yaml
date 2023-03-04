@@ -1,0 +1,31 @@
+---
+# ================== change this
+dataroot: datasets/all
+model_gen_path: archive/gp-wgan-large-100-ep-plus1/models/gp-wgan-gen-100.pth
+model_disc_path: archive/gp-wgan-large-100-ep-plus1/models/gp-wgan-disc-100.pth
+n_workers: 8
+# ================== change this
+batch_size: 32
+image_size: 128
+n_channels: 3
+n_z: 128
+n_gf: 128
+n_df: 128
+# ================== change this
+n_epochs: 400
+lr_d: 0.0001
+lr_g: 0.0001
+beta1: 0.5
+beta2: 0.99
+stats:
+- [0.5, 0.5, 0.5]
+- [0.5, 0.5, 0.5]
+# save generator images and models every nth epoch
+# ================== change this
+save_every_n: 20
+# wgan only params
+# ================== change this
+APPLY_GRAD_PENALTY: true
+critical_iters: 5
+weight_clip: 0.01
+lambda_gp: 10
