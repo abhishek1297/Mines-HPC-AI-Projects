@@ -86,8 +86,8 @@ _Training was done in two parts: (500 + 200) epochs_
 - By removing the constraint, the loss function is not bound between 0 and 1. It will grow as far as it can based on the distance between two distributions.
 
 - WGAN uses 1-Lipschitz function to compute this distance. We can either implement it using,
- - Weight Clipping
- - Gradient Penalty
+  - Weight Clipping
+  - Gradient Penalty
 
 - I have added both techniques. However, I did not fully explore the weight clipping option as it did not yield good results while experimenting.
 
