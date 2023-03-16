@@ -1,14 +1,15 @@
 # Mines HPC-AI Projects & Assignments
+**UE2-1 LinAlg: Randomized SVD **
 
-**UE3-1: Parallel Programming using Pthreads, and AVX**
+**UE2-2 Dist. LinAlg: Geometric Multigrid on 2D Poisson's equation **
 
-**UE2-1: Linear Algebra**
+**UE3-1 CPU: using Pthreads, and AVX**
 
-**UE2-2: Distributed Linear Algebra**
+**UE3-2 GPU: Physics-informed Neural Operator on 2D wave equations
 
-**UE4-1: Statistical Analysis**
+**UE4-1 Statistical Analysis: MCMC, and Density estimation**
 
-**UE4-2: Machine Learning**
+**UE4-2 ML: **
 
-**UE4-3: Deep Learning**
+**UE4-3 DL: Abstract art using GANs**
 
